@@ -1,0 +1,53 @@
+/* index */
+/* ========== Category Banner Css Start ========== */
+#category_banner{
+    padding: 60px 0;
+    .category_banner_img{
+        position: relative;
+        .ovrly{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 30px;
+            h4{
+                @include text(20px , 400 , #333);
+                span{
+                    @include text(20px , 700 , #f77c29 );
+                }
+            }
+            h2{
+                @include text(25px , 800 , #333);
+                text-transform: uppercase;
+            }
+            h3{
+                @include text(25px , 400 , #333);
+            }
+            p{
+                @include text(14px , 400 , #666);
+                padding-top: 15px;
+                span{
+                    color: #f77c29;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+    .category_banner_img_two{
+        .ovrly{
+            h4{
+                color: #c4c4c5;
+            }
+            h2{
+                color: #fff;
+            }
+            h3{
+                color: #fff;
+            }
+            p{
+                color: #fff;
+            }
+        }
+    }
+}
+/* ========== Category Banner Css End ========== */
